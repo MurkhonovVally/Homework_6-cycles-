@@ -28,13 +28,21 @@ public class Main {
     }
     public static void task3() {
         System.out.println((char) 27 + "[35mЗадача 3" + (char)27 + "[0m");
-        
+        for(int b = 0; b <= 17; b = b +2) {
+            System.out.println("Четное число " + b);
+        }
     }
     public static void task4() {
         System.out.println((char) 27 + "[35mЗадача 4" + (char)27 + "[0m");
+        for( int c = 10; c > -11; c = c -1) {
+            System.out.println(c);
+        }
     }
     public static void task5() {
         System.out.println((char) 27 + "[35mЗадача 5" + (char)27 + "[0m");
+        for( int d = 1904; d < 2096; d = d + 4) {
+            System.out.println(d + " год является високосным");
+        }
     }
     public static void task6() {
         System.out.println((char) 27 + "[35mЗадача 6" + (char)27 + "[0m");
