@@ -11,8 +11,7 @@ public class Main {
         task9();
         task10();
     }
-    //for(int i = 0; i < 10; i = i + 1){
-    //    System.out.println("Итерация цикла " + i);
+    //for(int i = 0; i < 10; i = i + 1)
 
     public static void task1() {
         System.out.println((char) 27 + "[35m----------Задача 1----------" + (char)27 + "[0m");
